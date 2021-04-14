@@ -6,11 +6,11 @@
 		"Capitulos":[
 			{
 				"NombreCapitulo":"Capitulo 3",
-				"ID":1,
+				"ID":1
 			}
 			{
 				"NombreCapitulo":"Capitulo 7",
-				"ID":2,
+				"ID":2
 			}
 		],
 		"Imagen":"url"	
@@ -22,11 +22,11 @@
 		"Capitulos":[
 			{
 				"NombreCapitulo":"Capitulo 2",
-				"ID":1,
+				"ID":1
 			}
 			{
 				"NombreCapitulo":"Capitulo 5",
-				"ID":2,
+				"ID":2
 			}
 		],
 		"Imagen":"url"
@@ -38,15 +38,15 @@
 		"Capitulos":[
 			{
 				"NombreCapitulo":"Capitulo 6",
-				"ID":1,
+				"ID":1
 			}
 			{
 				"NombreCapitulo":"Capitulo 10",
-				"ID":2,
+				"ID":2
 			}
 			{
 				"NombreCapitulo":"Capitulo 11",
-				"ID":3,
+				"ID":3
 			}
 		],
 		"Imagen":"url"
