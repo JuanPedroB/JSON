@@ -1,0 +1,36 @@
+
+"Tiempo":[
+	{
+		"NombreCiudad":"Almendralejo",
+		"Dia":[
+			{
+				"día":12,
+				"Temperatura":"20ºC",
+				"Viento":"15km/h",
+				"Estado":{
+					"Nombre":"Lluvia",
+					"Icono":"url"
+				}
+			}
+			{
+				"día":13,
+				"Temperatura":"21ºC",
+				"Viento":"23km/h",
+				"Estado":{
+					"Nombre":"Nublado",
+					"Icono":"url"
+				}
+			}
+			{
+				"día":14,
+				"Temperatura":"19ºC",
+				"Viento":"18km/h",
+				"Estado":{
+					"Nombre":"Soleado",
+					"Icono":"url"
+				}
+			}
+		]
+	}
+		
+]
