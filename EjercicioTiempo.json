@@ -5,30 +5,30 @@
 		"NombreCiudad":"Almendralejo",
 		"Dia":[
 			{
-				"día":12,
-				"Temperatura":"20ºC",
-				"Viento":"15km/h",
-				"Estado":{
-					"Nombre":"Lluvia",
-					"Icono":"https://img.icons8.com/dusk/64/000000/rain--v1.png"
+				"dia":12,
+				"temperatura":"20ºC",
+				"viento":"15km/h",
+				"estado":{
+					"nombre":"Lluvia",
+					"icono":"https://img.icons8.com/dusk/64/000000/rain--v1.png"
 				}
 			},
 			{
-				"día":13,
-				"Temperatura":"21ºC",
-				"Viento":"23km/h",
-				"Estado":{
-					"Nombre":"Nublado",
-					"Icono":"https://img.icons8.com/dusk/64/000000/fog-day.png"
+				"dia":13,
+				"temperatura":"21ºC",
+				"viento":"23km/h",
+				"estado":{
+					"nombre":"Nublado",
+					"icono":"https://img.icons8.com/dusk/64/000000/fog-day.png"
 				}
 			},
 			{
-				"día":14,
-				"Temperatura":"19ºC",
-				"Viento":"18km/h",
-				"Estado":{
-					"Nombre":"Soleado",
-					"Icono":"https://img.icons8.com/color/48/000000/summer--v1.png"
+				"dia":14,
+				"temperatura":"19ºC",
+				"viento":"18km/h",
+				"estado":{
+					"nombre":"Soleado",
+					"icono":"https://img.icons8.com/color/48/000000/summer--v1.png"
 				}
 			}
 		]
