@@ -9,7 +9,7 @@
 				"Viento":"15km/h",
 				"Estado":{
 					"Nombre":"Lluvia",
-					"Icono":"url"
+					"Icono":"https://img.icons8.com/color/48/000000/heavy-rain.png"
 				}
 			}
 			{
@@ -18,7 +18,7 @@
 				"Viento":"23km/h",
 				"Estado":{
 					"Nombre":"Nublado",
-					"Icono":"url"
+					"Icono":"https://img.icons8.com/color/48/000000/cloud.png"
 				}
 			}
 			{
@@ -27,7 +27,7 @@
 				"Viento":"18km/h",
 				"Estado":{
 					"Nombre":"Soleado",
-					"Icono":"url"
+					"Icono":"https://img.icons8.com/color/48/000000/summer--v1.png"
 				}
 			}
 		]
