@@ -8,6 +8,7 @@
 				"dia":12,
 				"temperatura":"20ºC",
 				"viento":"15km/h",
+				"humedad":"50%",
 				"estado":{
 					"nombre":"Lluvia",
 					"icono":"https://img.icons8.com/dusk/64/000000/rain--v1.png"
@@ -17,6 +18,7 @@
 				"dia":13,
 				"temperatura":"21ºC",
 				"viento":"23km/h",
+				"humedad":"76%",
 				"estado":{
 					"nombre":"Nublado",
 					"icono":"https://img.icons8.com/dusk/64/000000/fog-day.png"
@@ -26,6 +28,7 @@
 				"dia":14,
 				"temperatura":"19ºC",
 				"viento":"18km/h",
+				"humedad":"65%",
 				"estado":{
 					"nombre":"Soleado",
 					"icono":"https://img.icons8.com/color/48/000000/summer--v1.png"
