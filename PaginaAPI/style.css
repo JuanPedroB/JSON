@@ -1,0 +1,205 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.cabecera{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+	border: 2px double black;
+	background-color: rgba(169, 174, 178, 0.5);
+}
+.imagenCabecera{
+	width: 5%;
+	height: 100%;
+	margin-left: 10px;
+}
+#buscador{
+	border: 2px solid black;
+	padding: 2px;
+	border-radius: 5px;
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+	font-family: "Segoe UI";
+}
+
+
+#contenedorPrincipal{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+	#parteIzquierda{
+		width: 25%;
+		height: 100%;
+		background-color: rgba(112, 185, 212, 0.8);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 2px double black;
+	}
+		#imagenPokemon{
+			width: 75%;
+			height:50%;
+			display: block;
+			margin: auto;
+			border-bottom: 2px double rgba(243, 135, 20, 1);
+		}
+
+		#nombrePokemon{
+			margin-top: -2px;			
+			text-align: center;
+			font-weight: bold;
+			font-size: 45px;
+			font-family: "Segoe UI";
+		}
+
+		#tipoPokemon{
+			text-align: center;
+			font-size: 30px;
+			font-weight: cursive;
+			font-family: "Segoe UI";
+		}
+
+		.aparicionPokemon{
+			margin: 20px;
+			margin-top: 40px;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+			.juego{
+				border: 4px solid rgba(243, 135, 20, 1);
+				border-radius: 10px;
+				background-color: white;
+				padding: 5px;
+				margin: 5px;
+				font: oblique bold 100% cursive;
+			}
+
+	#parteDerecha{
+		width: 75%;
+		height: 100%;
+		background-color: rgba(243, 147, 32, 1);
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		border: 2px double black;
+	}
+
+		.sprites{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			border: 5px solid rgba(9, 71, 137, 0.8);
+			border-radius: 10px;
+			background-color: rgba(112, 185, 212, 0.8);
+			margin-top: 20px;
+			width: 75%;
+			height: 30%;
+		}
+
+		.estadisticas{
+			display: flex;
+			flex-direction: row;
+			height: 50%;
+			width: 92%;
+
+		}
+			.datosStats{
+				width: 33%;
+				height: 90%;
+				margin: 20px;
+				border: 5px solid rgba(9, 71, 137, 0.8);
+				border-radius: 10px;
+				background-color: rgba(112, 185, 212, 0.8);
+				padding-top: 20px;
+			}
+				.tituloStats{
+					text-align: center;
+					font-weight: cursive;
+					font-family: "Segoe UI";
+					border-bottom: 2px solid rgba(9, 71, 137, 0.8);
+				}
+				.movimiento{
+					border: 4px solid rgba(243, 135, 20, 1);
+					border-radius: 10px;
+					background-color: white;
+					font: oblique bold 100% cursive;
+					display: block;
+					margin: auto;
+					margin-top: 15px;
+					width: 75%;
+					text-align: center;
+				}
+
+				.capacidad{
+					text-align: center;
+					padding: 10px;
+					margin: 30px;
+					border: 2px solid rgba(243, 135, 20, 1);
+					border-radius: 10px;
+					background-color: white;
+					font: oblique bold 90% cursive;
+				}
+
+				.statBase{
+					text-align: center;
+					margin: 2px;
+					border: 2px solid rgba(243, 135, 20, 1);
+					border-radius: 10px;
+					background-color: white;
+					font: oblique bold 90% cursive;
+				}
+
+
+	@media (max-width: 950px){
+		#contenedorPrincipal{
+			flex-direction: column;
+		}
+		#parteIzquierda{
+			width: 100%;
+		}
+		#parteDerecha{
+			width: 100%;
+		}
+		#imagenPokemon{
+			width: 40%;
+			height: 60%;
+		}
+	}
+	@media (max-width: 730px){
+			#contenedorPrincipal{
+			height: 100%;
+		}
+		#parteDerecha{
+			height: 100%;
+		}
+		.estadisticas{
+			flex-direction: column;
+		}
+		.datosStats{
+			width: 80%;
+		}
+	}
+	@media (max-width: 1300px) and (min-width: 730px){
+		#contenedorPrincipal{
+			height: 100%;
+		}
+		#parteIzquierda{
+			height: 100vh;
+		}
+		#parteDerecha{
+			height: 100vh;
+		}
+	}
